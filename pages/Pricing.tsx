@@ -1,13 +1,9 @@
+
 'use client';
+
 import React from 'react';
 import { Check, Star, Zap, Sparkles, Coins, Crown, ArrowRight } from 'lucide-react';
 import { useAuth } from '../AuthContext';
-
-declare global {
-  interface Window {
-   Lemon Squeezy: any;
-  }
-}
 
 const Pricing: React.FC = () => {
   const { openAuthModal, showToast } = useAuth();
@@ -18,8 +14,6 @@ const Pricing: React.FC = () => {
       window.location.href = checkoutLink;
     }
   };
-
-
 
   const LEMON_SQUEEZY_SUBSCRIPTION_URL = "https://promptifie.lemonsqueezy.com/checkout/buy/24142771-181a-4118-928e-600ebbfa3557";
 
