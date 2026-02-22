@@ -19,16 +19,7 @@ const Pricing: React.FC = () => {
     }
   };
 
-  // Legacy Paddle Logic for Lifetime and other existing buttons
-  const handleLegacyPaddleCheckout = (priceId: string) => {
-    if (window.Paddle) {
-      window.Paddle.Checkout.open({
-        items: [{ priceId: priceId, quantity: 1 }]
-      });
-    } else {
-      console.error("Paddle not loaded");
-    }
-  };
+
 
   const LEMON_SQUEEZY_SUBSCRIPTION_URL = "https://promptifie.lemonsqueezy.com/checkout/buy/24142771-181a-4118-928e-600ebbfa3557";
 
