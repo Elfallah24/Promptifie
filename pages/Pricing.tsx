@@ -5,7 +5,7 @@ import { useAuth } from '../AuthContext';
 
 declare global {
   interface Window {
-    Paddle: any;
+   Lemon Squeezy: any;
   }
 }
 
