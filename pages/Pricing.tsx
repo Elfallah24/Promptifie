@@ -1,4 +1,4 @@
-
+'use client';
 import React from 'react';
 import { Check, Star, Zap, Sparkles, Coins, Crown, ArrowRight } from 'lucide-react';
 import { useAuth } from '../AuthContext';
