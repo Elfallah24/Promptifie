@@ -1,0 +1,5 @@
+{
+  "name": "Promptifie - AI Image to Prompt Tool",
+  "description": "Transform any image into a detailed AI prompt optimized for Midjourney, DALL-E, Flux, and more.",
+  "requestFramePermissions": []
+}
